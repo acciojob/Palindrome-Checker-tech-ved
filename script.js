@@ -3,3 +3,5 @@ function isPalindrome(s) {
     let reversed = cleaned.split("").reverse().join("");
     return cleaned === reversed;
 }
+
+module.exports = isPalindrome;
